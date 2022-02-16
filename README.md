@@ -9,3 +9,4 @@
 1. docker pull node:16-alpine
 2. docker image build -t json-server-img:1.0 .
 3. docker container run --name json-server-cnt -d -p 3000:3000 json-server-img:1.0
+4. Открыть порт 3000
